@@ -1,0 +1,17 @@
+127.0.0.1 - - [14/Oct/2021:14:03:26 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:03:26 +0900] "GET /edu/WEB-INF/member.html HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:04:11 +0900] "GET /edu/WEB-INF/member.html HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:04:37 +0900] "GET /edu/WEB-INF/member.html HTTP/1.1" 404 721
+127.0.0.1 - - [14/Oct/2021:14:07:41 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:07:41 +0900] "GET /edu/queryTest HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:07:59 +0900] "GET /edu/member.html HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:08:14 +0900] "GET /edu/member.html HTTP/1.1" 200 1163
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:08:16 +0900] "GET /edu/queryTest?id=master&pwd=p0o9i8u7%21%21&name=&religion=Christianity&introduction= HTTP/1.1" 200 111
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:08:29 +0900] "GET /edu/member.html HTTP/1.1" 200 1164
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:08:31 +0900] "POST /edu/queryTest HTTP/1.1" 200 112
+127.0.0.1 - - [14/Oct/2021:14:16:21 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:16:21 +0900] "GET /edu/member.html HTTP/1.1" 200 1163
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:16:45 +0900] "GET /edu/queryTest?id=ddd&pwd=ddd&name=ddd&hobby=climbing&hobby=sports&hobby=reading&hobby=traveling&gender=female&religion=atheism&introduction=dddd HTTP/1.1" 200 395
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:21:31 +0900] "GET /edu/member.html HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:21:31 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [14/Oct/2021:14:21:38 +0900] "GET /edu/member.html HTTP/1.1" 404 721
